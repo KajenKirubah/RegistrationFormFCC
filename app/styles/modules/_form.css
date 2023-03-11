@@ -1,0 +1,27 @@
+.form {
+    margin: 0 auto;
+    max-width: 500px;
+    min-width: 300px;
+    width: 60vw;
+    padding-bottom: 2em;
+
+    &__group {
+        border: none;
+        padding: 2rem 0;
+        border-bottom: 3px solid #3b3b4f;
+    }
+
+    &__group:last-of-type {
+        border-bottom: none;
+    }
+
+    &__inline {
+        width: unset;
+        margin: 0 0.5em 0 0;
+        vertical-align: middle;
+    }
+    &__group label {
+            display: block;
+            margin: 0.5rem 0;
+    }
+}

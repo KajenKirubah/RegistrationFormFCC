@@ -1,0 +1,17 @@
+.btn {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    height: 4em;
+    background-color: #3b3b4f;
+        border-color: white;
+        font-size: 1.2rem;
+
+    @mixin atSmall {
+        height: 2em;
+        font-size: 1.1rem;
+        margin: 1em auto;
+        min-width: 300px;
+    }
+    
+}
